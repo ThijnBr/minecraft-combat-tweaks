@@ -1,0 +1,25 @@
+name: ThijnsCombatTweaks
+version: ${project.version}
+main: com.thefallersgames.CombatTweaksPlugin
+api-version: '1.21'
+author: TheFallersGames
+description: A Minecraft plugin that enhances combat mechanics with crossbow rockets, tipped arrows, and splash potions
+website: https://www.paypal.com/donate/?hosted_button_id=2KZ4AHLZHBV8A
+
+commands:
+  combattweaks:
+    description: Main command for Combat Tweaks plugin
+    usage: /combattweaks <reload|debug>
+    aliases: [ct, ctweaks]
+    permission: combattweaks.use
+
+permissions:
+  combattweaks.use:
+    description: Allows basic command usage
+    default: true
+  combattweaks.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  combattweaks.debug:
+    description: Allows toggling debug mode
+    default: op
