@@ -71,6 +71,15 @@ public class ConfigManager {
         return config.getDouble("shield.knockback_factor", 0.5);
     }
 
+    // Spear/Trident settings
+    public boolean isSpearsEnabled() {
+        return config.getBoolean("spear_and_trident.enable_spears", true);
+    }
+
+    public boolean isTridentsEnabled() {
+        return config.getBoolean("spear_and_trident.enable_tridents", true);
+    }
+
     public FileConfiguration getConfig() {
         return config;
     }

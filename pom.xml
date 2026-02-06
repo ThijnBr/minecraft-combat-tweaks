@@ -6,7 +6,7 @@
 
   <groupId>com.thefallersgames</groupId>
   <artifactId>combat-tweaks</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.9</version>
 
   <name>ThijnsCombatTweaks</name>
   <description>A Minecraft plugin that enhances combat mechanics</description>

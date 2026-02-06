@@ -4,6 +4,7 @@ import com.thefallersgames.commands.CombatTweaksCommand;
 import com.thefallersgames.config.ConfigManager;
 import com.thefallersgames.listeners.CrossbowRocketListener;
 import com.thefallersgames.listeners.ShieldKnockbackListener;
+import com.thefallersgames.listeners.SpearAttributeListener;
 import com.thefallersgames.listeners.SplashPotionListener;
 import com.thefallersgames.listeners.TippedArrowListener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -43,6 +44,7 @@ public class CombatTweaksPlugin extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new TippedArrowListener(this), this);
         getServer().getPluginManager().registerEvents(new SplashPotionListener(this), this);
         getServer().getPluginManager().registerEvents(new ShieldKnockbackListener(this), this);
+        getServer().getPluginManager().registerEvents(new SpearAttributeListener(this), this);
 
         if (configManager.isDebugMode()) {
             getLogger().info("[DEBUG] All event listeners registered");

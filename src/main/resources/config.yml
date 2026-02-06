@@ -1,5 +1,5 @@
 # Thijns Combat Tweaks Configuration
-# Version 1.0.2
+# Version 1.0.3
 
 # Debug mode - Enable detailed console logging
 debug_mode: false
@@ -38,3 +38,10 @@ shield:
   knockback_through_shield: true
   # Knockback multiplier when shield is blocking (0.5 = half knockback)
   knockback_factor: 0.5
+
+# Spear and Trident Settings
+spear_and_trident:
+  # Enable or disable the usage of Spears
+  enable_spears: true
+  # Enable or disable the usage of Tridents
+  enable_tridents: true
